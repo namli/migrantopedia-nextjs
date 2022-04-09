@@ -18,11 +18,11 @@ export default siteConfig({
   description: 'MIGRANTopedia of Barcelona” ( MIGRANTopedia) aims to provide and facilitate information that foreigners who want to relocate to Barcelona are looking for.',
 
   // social usernames (optional)
-  twitter: 'transitive_bs',
+  twitter: 'impuls.social',
   // github: 'transitive-bullshit',
   linkedin: 'company/impuls-social',
   instagram: 'impuls.social',
-  facebook: '1111',
+  facebook: 'impuls.social',
 
   // default notion icon and cover images for site-wide consistency (optional)
   // page-specific values will override these site-wide defaults
@@ -50,16 +50,16 @@ export default siteConfig({
 
   // whether to use the default notion navigation style or a custom one with links to
   // important pages
-  navigationStyle: 'default'
-  // navigationStyle: 'custom',
-  // navigationLinks: [
-  //   {
-  //     title: 'About',
-  //     pageId: 'f1199d37579b41cbabfc0b5174f4256a'
-  //   },
-  //   {
-  //     title: 'Contact',
-  //     pageId: '6a29ebcb935a4f0689fe661ab5f3b8d1'
-  //   }
-  // ]
+  //navigationStyle: 'default'
+  navigationStyle: 'custom',
+  navigationLinks: [
+    {
+      title: 'About',
+      pageId: '7af36970b3324e5faf62e493627f3f82'
+    },
+    {
+      title: 'Contact',
+      pageId: 'eb1bb4f177d947fb84e1264c4d1b5638'
+    }
+  ]
 })
