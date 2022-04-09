@@ -1,8 +1,9 @@
 import React from 'react'
 import useDarkMode from '@fisch0920/use-dark-mode'
 import { FaTwitter } from '@react-icons/all-files/fa/FaTwitter'
-import { FaZhihu } from '@react-icons/all-files/fa/FaZhihu'
+import { FaFacebookSquare } from '@react-icons/all-files/fa/FaFacebookSquare'
 import { FaGithub } from '@react-icons/all-files/fa/FaGithub'
+import { FaInstagramSquare } from "@react-icons/all-files/fa/FaInstagramSquare";
 import { FaLinkedin } from '@react-icons/all-files/fa/FaLinkedin'
 import { IoSunnyOutline } from '@react-icons/all-files/io5/IoSunnyOutline'
 import { IoMoonSharp } from '@react-icons/all-files/io5/IoMoonSharp'
@@ -58,27 +59,27 @@ export const FooterImpl: React.FC = () => {
           </a>
         )}
 
-        {config.zhihu && (
+        {config.facebook && (
           <a
-            className={styles.zhihu}
-            href={`https://zhihu.com/people/${config.zhihu}`}
-            title={`Zhihu @${config.zhihu}`}
+            className={styles.facebook}
+            href={`https://www.facebook.com//${config.facebook}`}
+            title={`facebook @${config.facebook}`}
             target='_blank'
             rel='noopener noreferrer'
           >
-            <FaZhihu />
+            <FaFacebookSquare />
           </a>
         )}
 
-        {config.github && (
+        {config.instagram && (
           <a
-            className={styles.github}
-            href={`https://github.com/${config.github}`}
-            title={`GitHub @${config.github}`}
+            className={styles.instagram}
+            href={`https://www.instagramm.com/${config.instagram}`}
+            title={`instagram @${config.instagram}`}
             target='_blank'
             rel='noopener noreferrer'
           >
-            <FaGithub />
+            <FaInstagramSquare />
           </a>
         )}
 
