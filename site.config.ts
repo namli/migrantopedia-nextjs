@@ -10,17 +10,19 @@ export default siteConfig({
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: 'Next.js Notion Starter Kit',
-  domain: 'nextjs-notion-starter-kit.transitivebullsh.it',
-  author: 'Travis Fischer',
+  name: 'Migrantopedia',
+  domain: 'migrantopedia.com',
+  author: 'Impulse Social',
 
   // open graph metadata (optional)
-  description: 'Example Next.js Notion Starter Kit Site',
+  description: 'MIGRANTopedia of Barcelona” ( MIGRANTopedia) aims to provide and facilitate information that foreigners who want to relocate to Barcelona are looking for.',
 
   // social usernames (optional)
   twitter: 'transitive_bs',
-  github: 'transitive-bullshit',
-  linkedin: 'fisch2',
+  // github: 'transitive-bullshit',
+  linkedin: 'company/impuls-social',
+  instagram: 'impuls.social',
+  facebook: '1111',
 
   // default notion icon and cover images for site-wide consistency (optional)
   // page-specific values will override these site-wide defaults
